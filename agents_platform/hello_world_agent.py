@@ -12,8 +12,8 @@ from own_adapter.board import Board
 from own_adapter.element import Element
 from own_adapter.platform_access import PlatformAccess
 
-AGENT_LOGIN = ''
-AGENT_PASSWORD = ''
+AGENT_LOGIN = 'mihbort@gmail.com'
+AGENT_PASSWORD = 'SUT-bYP-Pv8-M7u'
 
 
 def __do_something(element):
