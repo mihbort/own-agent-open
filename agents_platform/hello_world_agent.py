@@ -81,7 +81,7 @@ def on_websocket_message(ws, message):
     if message_type == 'liveUpdateElementCaptionEdited+json':
         element_caption = message_dict['newCaption']
         # looking for elements that target our agent
-        if re.match(pattern='@helloworld:.+', string=element_caption):
+        if re.match(pattern='@vacancy:.+', string=element_caption):
             # create instances of Board and Element to work with them
             element_id = message_dict['path']
             news_agent = get_agent()
